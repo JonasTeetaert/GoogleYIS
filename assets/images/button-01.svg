@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350">
+  <defs>
+    <style>
+      .a {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <title>button</title>
+  <path class="a" d="M202.5,197.5h-55A22.5,22.5,0,0,1,125,175h0a22.5,22.5,0,0,1,22.5-22.5h55A22.5,22.5,0,0,1,225,175h0A22.5,22.5,0,0,1,202.5,197.5Z"/>
+</svg>

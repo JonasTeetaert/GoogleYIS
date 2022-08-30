@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google YIS</title>
+  <meta name="description" content="Boiler Template">
+  <meta name="keywords" content="boiler template, template">
+  <meta name="author" content="Jonas Teetaert">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <style>
+    body {
+      background: red;
+    }
+
+    .hole-layer {
+      pointer-events: visible;
+    }
+  </style>
+</head>
+
+<body>
+  <canvas width="100%" height="100%"></canvas>
+  <!-- scripts -->
+  <!-- <script type="text/javascript" src="js/bundle.js"></script> -->
+  <script>
+    // Grab the Canvas and Drawing Context
+    var canvas = document.getElementById('c');
+    var ctx = canvas.getContext('2d');
+
+    // Create an image element
+    var img = document.createElement('IMG');
+
+    // When the image is loaded, draw it
+    img.onload = function () {
+      ctx.drawImage(img, 0, 0);
+    }
+
+    // Specify the src to load the image
+    img.src = "http://i.imgur.com/gwlPu.jpg";
+  </script>
+</body>
+
+</html>
